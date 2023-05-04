@@ -107,6 +107,10 @@
 .margin-top-58px {
   margin-top: 58px;
 }
+.top-name {
+  display: flex;
+  flex-direction: column;
+}
 .name {
   color: var(--color-name);
 }

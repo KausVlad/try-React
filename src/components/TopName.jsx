@@ -5,7 +5,7 @@ export default function TopName() {
       <a className="form-href" href="./Forms-HW6.html">
         Hire ➡ Me{' '}
       </a>
-      <h1 className="margin-left save-margin-right">
+      <h1 className="top-name margin-left save-margin-right">
         <span className="name">Vladyslav</span>
         <span className="surname">Shkarivskyi</span>
       </h1>
