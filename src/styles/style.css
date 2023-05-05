@@ -278,6 +278,39 @@ p {
   opacity: 1;
 }
 
+.work-form fieldset {
+  margin-bottom: 49px;
+}
+.work-form button {
+  text-align: center;
+  width: 100%;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+}
+.work-form button:active {
+  background-color: var(--color-secondary);
+  color: var(--color-name);
+}
+.work-form div {
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  gap: 8px;
+}
+.work-form div label {
+  width: 220px;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 2px;
+}
+.work-form div input {
+  width: 100%;
+  padding: 2px;
+  background-color: #f8fafc;
+}
+
 .skills {
   display: flex;
   margin-bottom: 65px;

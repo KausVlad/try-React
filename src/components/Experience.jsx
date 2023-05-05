@@ -1,8 +1,6 @@
 import WorkPlace from './WorkPlace';
 import WorkForm from './WorkForm';
 
-const X = [1, 2, 3];
-
 export default function Experience() {
   const initialWorks = [
     {
@@ -40,8 +38,8 @@ export default function Experience() {
       <div className="experience">
         <WorkPlace items={initialWorks} currentDiv={true} />
         <WorkPlace items={initialWorks} currentDiv={false} />
-        <WorkForm />
       </div>
+      <WorkForm />
     </>
   );
 }
