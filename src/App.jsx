@@ -4,6 +4,8 @@ import { Photo } from './components/Photo';
 import Contact from './components/Contact';
 import TopName from './components/TopName';
 import Experience from './components/Experience';
+import { About } from './components/About';
+import Repo from './components/Repo';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
             <Contact />
           </div>
           <div className="content">
+            <About />
             <Experience />
+            <Repo />
           </div>
         </div>
       </div>

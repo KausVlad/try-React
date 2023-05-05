@@ -264,14 +264,18 @@ p {
   margin-bottom: 49px;
 }
 
-.experience p:last-child {
-  /* color: var(--color-main-transparent); */
+.experience p {
+  margin-bottom: 0px;
+}
+.experience div {
+  margin-bottom: 49px;
+}
+.experience div:not(:first-child) {
   opacity: 0.7;
   transition: opacity 0.5s;
 }
-.experience p:last-child:hover {
+.experience div:not(:first-child):hover {
   opacity: 1;
-  /* color: var(--color-main); */
 }
 
 .skills {
