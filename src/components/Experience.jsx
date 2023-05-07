@@ -1,5 +1,6 @@
 import WorkPlace from './WorkPlace';
 import WorkForm from './WorkForm';
+import { useState } from 'react';
 
 export default function Experience() {
   const initialWorks = [
@@ -32,14 +33,20 @@ export default function Experience() {
     },
   ];
 
+  const [items, setItems] = useState(initialWorks);
+
+  const handleSubmit = (newWork) => {
+    setItems([...items, newWork]);
+  };
+
   return (
     <>
       <h2 id="KeyC">Work Experience</h2>
       <div className="experience">
-        <WorkPlace items={initialWorks} currentDiv={true} />
-        <WorkPlace items={initialWorks} currentDiv={false} />
+        <WorkPlace items={items} currentDiv={true} />
+        <WorkPlace items={items} currentDiv={false} />
       </div>
-      <WorkForm />
+      <WorkForm handleSubmitComp={handleSubmit} />
     </>
   );
 }
