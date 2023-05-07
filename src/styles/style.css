@@ -281,7 +281,7 @@ p {
 .work-form fieldset {
   margin-bottom: 49px;
 }
-.work-form button {
+.work-form input[type=submit] {
   text-align: center;
   width: 100%;
   border: 2px solid var(--color-secondary);
@@ -289,7 +289,7 @@ p {
   padding: 8px;
   cursor: pointer;
 }
-.work-form button:active {
+.work-form input[type=submit]:active {
   background-color: var(--color-secondary);
   color: var(--color-name);
 }

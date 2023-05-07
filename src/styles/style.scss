@@ -231,7 +231,7 @@ p {
   fieldset {
     margin-bottom: 49px;
   }
-  button {
+  input[type='submit'] {
     text-align: center;
     width: 100%;
     border: 2px solid var(--color-secondary);
