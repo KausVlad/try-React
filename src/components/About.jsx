@@ -1,9 +1,7 @@
 export function About() {
   return (
     <>
-      <h2 id="KeyA" className="margin-top-58px">
-        Summary
-      </h2>
+      <h2 id="KeyA">Summary</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet nesciunt
         doloribus vel, cupiditate exercitationem corporis, beatae maiores

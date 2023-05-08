@@ -264,6 +264,33 @@ p {
   margin-bottom: 49px;
 }
 
+.rating p {
+  display: flex;
+  font-size: 2.5rem;
+  line-height: normal;
+  gap: 1rem;
+}
+.rating .rating-value {
+  width: 6rem;
+}
+.rating .button-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  justify-content: space-between;
+}
+.rating button {
+  font-size: 1rem;
+  text-align: center;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 0.01rem;
+}
+.rating button:active {
+  background-color: var(--color-secondary);
+  color: var(--color-name);
+}
+
 .experience p {
   margin-bottom: 0px;
 }

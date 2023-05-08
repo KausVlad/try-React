@@ -6,6 +6,7 @@ import TopName from './components/TopName';
 import Experience from './components/Experience';
 import { About } from './components/About';
 import Repo from './components/Repo';
+import Rating from './components/Rating';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Contact />
           </div>
           <div className="content">
+            <Rating />
             <About />
             <Experience />
             <Repo />
