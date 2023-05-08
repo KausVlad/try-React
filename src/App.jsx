@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import TopName from './components/TopName';
 import Experience from './components/Experience';
 import { About } from './components/About';
-import Repo from './components/Repo';
+import Repo from './components/API/Repo';
 import Rating from './components/Rating';
 
 function App() {

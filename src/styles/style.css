@@ -264,11 +264,12 @@ p {
   margin-bottom: 49px;
 }
 
-.rating p {
+.rating .imitate-p {
   display: flex;
   font-size: 2.5rem;
   line-height: normal;
   gap: 1rem;
+  margin-bottom: 49px;
 }
 .rating .rating-value {
   width: 6rem;
