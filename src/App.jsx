@@ -1,4 +1,4 @@
-import './styles/style.css';
+import './styles/style.scss';
 import photo from './assets/personal-photo.jpg';
 import { Photo } from './components/Photo';
 import Contact from './components/Contact';
