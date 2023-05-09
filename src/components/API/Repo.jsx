@@ -1,25 +1,10 @@
 import { useEffect, useState } from 'react';
-
+import fetchRepos from './FetchRepos';
 export default function Repo() {
   const [repos, setRepos] = useState([]);
-  const GITHUB_URL_BASE = 'https://api.github.com';
-  const GITHUB_USER = 'KausVlad';
 
   useEffect(() => {
-    const fetchRepos = async () => {
-      const response = await fetch(
-        `${GITHUB_URL_BASE}/users/${GITHUB_USER}/repos`
-      );
-      const data = await response.json();
-
-      const formattedRepos = data.map((repo) => ({
-        id: repo.id,
-        full_name: repo.full_name,
-        html_url: repo.html_url,
-      }));
-      setRepos(formattedRepos);
-    };
-    fetchRepos();
+    fetchRepos(setRepos);
   }, []);
 
   return (
