@@ -36,7 +36,7 @@ export default function Experience() {
   const [items, setItems] = useState(initialWorks);
 
   const handleSubmit = (newWork) => {
-    setItems([...items, newWork]);
+    setItems((prevItems) => [...prevItems, newWork]);
   };
 
   return (
